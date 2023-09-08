@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+nav {
+  width: 100vw;
+  background-color: rgb(98,107,202);
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+  }
+  
+  nav ul {
+      display: flex; 
+      flex-direction: row; 
+      justify-content: right;  
+  }
+  nav ul li{
+    list-style-type: none; 
+    margin-right: 1em; 
+  }
+  nav ul li:hover {
+      color: rgb(0,0,0,0.75);
+      background-color: green;
+  }
+  nav ul li:active{
+      background-color: green;
+  }
